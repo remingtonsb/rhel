@@ -1,0 +1,1 @@
+instructions about manager RHEL
