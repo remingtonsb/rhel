@@ -1,0 +1,13 @@
+#How to register, enable and etc.. subscriptions RHEL
+
+#Register your subsciption to use packages in yout server:
+subscription-manager register
+
+#Pull the latest subscription data from Red Hat Subscription Manager (RHSM):
+subscription-manager refresh
+
+#List available repos from your subscriptions:
+subscription-manager repos --list
+
+#Find the pool ID that provides packages that you need:
+subscription-manager attach --pool=<pool_id>
