@@ -7,6 +7,9 @@ subscription-manager register
 subscription-manager refresh
 
 #List available repos from your subscriptions:
+subscription-manager list --available --all
+
+#List repos subscribed
 subscription-manager repos --list
 
 #Find the pool ID that provides packages that you need:
