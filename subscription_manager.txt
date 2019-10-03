@@ -13,6 +13,8 @@ subscription-manager list --available --all
 subscription-manager subscribe --pool=<PoolId>
 subscription-manager attach --pool=<pool_id>
 
+#employe SKU 8a85f99c6c8b9588016c8be0f38a0ee9
+
 #Setup repos
 subscription-manager repos --enable="rhel-7-server-rpms"
 
