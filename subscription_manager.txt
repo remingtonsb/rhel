@@ -21,3 +21,5 @@ subscription-manager repos --list
 
 #Reference
 https://access.redhat.com/solutions/653533
+#Subscriptions administration:
+https://access.redhat.com/management/products
