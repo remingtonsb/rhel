@@ -6,14 +6,15 @@ subscription-manager register
 #Pull the latest subscription data from Red Hat Subscription Manager (RHSM):
 subscription-manager refresh
 
-#List available repos from your subscriptions:
+#Find the pool ID that provides packages that you need:
 subscription-manager list --available --all
+
+#Assign subscription,
+subscription-manager subscribe --pool=<PoolId>
+subscription-manager attach --pool=<pool_id>
 
 #List repos subscribed
 subscription-manager repos --list
-
-#Find the pool ID that provides packages that you need:
-subscription-manager attach --pool=<pool_id>
 
 #Reference
 https://access.redhat.com/solutions/653533
