@@ -14,3 +14,6 @@ subscription-manager repos --list
 
 #Find the pool ID that provides packages that you need:
 subscription-manager attach --pool=<pool_id>
+
+#Reference
+https://access.redhat.com/solutions/653533
