@@ -1,0 +1,1 @@
+alias oclogin="oc login -u user -p password https://master.na311.openshift.opentlc.com"
