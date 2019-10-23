@@ -11,7 +11,7 @@ echo "Please write you action 'add' to add user or 'del' to del user"
 		echo "Defining password users"
 		for i in $(cat lista_users);do sudo echo redhat | sudo passwd $i --stdin; done
 		echo "add users to group testdrive"
-		for i in $(cat lista_users);do sudo usermod -g testdrive $i; done
+		for i in $(cat lista_users);do sudo usermod -G testdrive $i; done
 		;;
 	del)
 		echo "Deleting users"
